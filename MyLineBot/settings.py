@@ -28,7 +28,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '5b0e5e0708dd.ngrok.io',
-    'translationbotbenzyz1129.herokuapp.com/'
+    'translationbotbenzyz1129.herokuapp.com'
 ]
 
 
