@@ -20,7 +20,6 @@ hyperframe==5.2.0
 idna==2.10
 immutables==0.14
 line-bot-sdk==1.18.0
-pygraphviz==1.6
 pytz==2020.4
 requests==2.25.1
 rfc3986==1.4.0
