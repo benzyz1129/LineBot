@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -26,8 +27,8 @@ SECRET_KEY = 'm6f(93&(ue3#ig+$8ta7q=b!b7_&+fr)&phivd9#$o5urj9&v8'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '5b0e5e0708dd.ngrok.io'
-
+    '5b0e5e0708dd.ngrok.io',
+    'translationbotbenzyz1129.herokuapp.com/'
 ]
 
 
@@ -123,6 +124,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 LINE_CHANNEL_ACCESS_TOKEN = 'dnyMQ7WJ1PoufQfRHfDZYEGwCp3QgBEJEJek2oNc6ZRnOljzxA9/wmF1Km74fr4gp8BUvkDYpanbljHXjEpaHtN9X+KqZJX3sbfrn3F8G4Zyet13bosIRF8g0ifVWenaO869Jup/2MpOxyYNYUvIkAdB04t89/1O/w1cDnyilFU='
 LINE_CHANNEL_SECRET = 'df37fabb45e3b6388073fe3c767615b3'
