@@ -5,6 +5,8 @@
 
 Using the concept of `finite state machine` to implement a `Line bot`.
 
+tags: `d`
+
 ## Prerequises
 - `miniconda` or `anaconda`
 - `Python 3.6.12 :: Anaconda, Inc.`
@@ -59,5 +61,8 @@ You can install all dependencies by running command below :
 ![](https://i.imgur.com/uZJgwo8.jpg)
 --
 
-
-
+## FSM
+![](https://i.imgur.com/R8jWp0j.png)
+--
+![](https://i.imgur.com/4Jtnit9.jpg)
+--
